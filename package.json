@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "dev": "live-server src",
+    "dev": "live-server src --port=8080",
     "test": "echo \"Error: no test specified\" && exit 1",
     "css": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
